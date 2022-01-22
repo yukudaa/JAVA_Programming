@@ -8,7 +8,7 @@ public class CustomerTest1 {
 		customerLee.setCustomerID(10100);
 		customerLee.setCustomerName("Lee");
 */		
-		Customer customerKim = new VIPCustomer(10101,"Kim", 100); //¾÷Ä³½ºÆÃ
+		Customer customerKim = new VIPCustomer(10101,"Kim", 100); //Å¾Ã·Ã„Å‚ËÅŸÄ†Ä‚
 		
 		customerKim.bonusPoint = 1000;
 		
@@ -18,3 +18,4 @@ public class CustomerTest1 {
 	}
 
 }
+
