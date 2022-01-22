@@ -2,7 +2,7 @@ package inheritance;
 
 public class Circle {
 
-	Point point;	// has - a 관계
+	Point point;	// has - a 째체째챔
 	
 	private int radius;
 	
@@ -10,3 +10,4 @@ public class Circle {
 		point = new Point();
 	}
 }
+
