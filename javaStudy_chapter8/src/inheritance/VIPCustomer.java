@@ -2,7 +2,7 @@ package inheritance;
 
 public class VIPCustomer extends Customer{
 	
-	private int agentID;	//»ó´ã¿ø ¿¬°á
+	private int agentID;	//ìƒë‹´ì› ì—°ê²°
 	private double saleRatio;	
 	
 	
@@ -14,11 +14,11 @@ public class VIPCustomer extends Customer{
 		saleRatio = 0.1;
 		this.agentID = agentID;
 		
-		//System.out.println("VIPCustomer(int, String) È£Ãâ(ÇÏÀ§ Å¬·¡½º)");
+		//System.out.println("VIPCustomer(int, String) í˜¸ì¶œ(í•˜ìœ„ í´ë˜ìŠ¤)");
 		
 	}
 	
-	//¿À¹ö¶óÀÌµù
+	//ì˜¤ë²„ë¼ì´ë”©
 	public int calcPrice(int price){	
 		bonusPoint += price * bonusRatio;	
 		return price - (int)(price * saleRatio);
@@ -28,4 +28,3 @@ public class VIPCustomer extends Customer{
 		return agentID;
 	}
 }
-
