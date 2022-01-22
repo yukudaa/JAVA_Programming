@@ -4,37 +4,37 @@ import java.util.ArrayList;
 
 class Animal {
 	public void move() {
-		System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù.");
+		System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤.");
 	}
 }
 
 class Human extends Animal {
 	public void move() {
-		System.out.println("»ç¶÷ÀÌ µÎ¹ß·Î °È½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ë‘ë°œë¡œ ê±·ìŠµë‹ˆë‹¤.");
 	}
 	
 	public void readBook() {
-		System.out.println("»ç¶÷ÀÌ Ã¥À» ÀĞ½À´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ì±…ì„ ì½ìŠµë‹ˆë‹¤.");
 	}
 }
 
 class Tiger extends Animal {
 	public void move() {
-		System.out.println("È£¶ûÀÌ°¡ ³×¹ß·Î ¶İ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ê°€ ë„¤ë°œë¡œ ëœë‹ˆë‹¤.");
 	}
 	
 	public void hunting() {
-		System.out.println("È£¶ûÀÌ´Â »ç³ÉÀ» ÇÕ´Ï´Ù.");
+		System.out.println("í˜¸ë‘ì´ëŠ” ì‚¬ëƒ¥ì„ í•©ë‹ˆë‹¤.");
 	}
 }
 
 class Eagle extends Animal {
 	public void move() {
-		System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³¯À¾´Ï´Ù.");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚ ìë‹ˆë‹¤.");
 	}
 	
 	public void flying() {
-		System.out.println("ÇÏ´ÃÀ» ³¯¾Æ°©´Ï´Ù.");
+		System.out.println("í•˜ëŠ˜ì„ ë‚ ì•„ê°‘ë‹ˆë‹¤.");
 	}
 }
 
@@ -51,12 +51,12 @@ public class AnimalTest {
 	}
 	
 	public void moveAnimal(Animal animal) {
-		//ÄÚµå´Â ÀÌ°Å ÇÑÁÙÀÓ -> ´ÙÇü¼º
+		//ì½”ë“œëŠ” ì´ê±° í•œì¤„ì„ -> ë‹¤í˜•ì„±
 		animal.move();
 		
 		
 	/*	Human human = (Human)animal;
-		human.readBook(); */ // ´Ù¿îÄ³½ºÆÃ Àß¸øÇØ¼­ ¿À·ù¶ä
+		human.readBook(); */ // ë‹¤ìš´ìºìŠ¤íŒ… ì˜ëª»í•´ì„œ ì˜¤ë¥˜ëœ¸
 		
 		if (animal instanceof Human) {
 			Human human = (Human)animal;
@@ -71,7 +71,8 @@ public class AnimalTest {
 			eagle.flying();
 		}
 		else
-			System.out.println("Áö¿øµÇÁö ¾Ê´Â ±â´ÉÀÔ´Ï´Ù");
+			System.out.println("ì§€ì›ë˜ì§€ ì•ŠëŠ” ê¸°ëŠ¥ì…ë‹ˆë‹¤");
 	}
 
 }
+
