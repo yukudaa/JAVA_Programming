@@ -13,7 +13,7 @@ public class Customer {
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
 		
-		//System.out.println("Customer() È£Ãâ");
+		//System.out.println("Customer() í˜¸ì¶œ");
 	
 	}
 	
@@ -23,7 +23,7 @@ public class Customer {
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
 		
-		//System.out.println("Customer(int, String) È£Ãâ(»óÀ§ Å¬·¡½º)");
+		//System.out.println("Customer(int, String) í˜¸ì¶œ(ìƒìœ„ í´ë˜ìŠ¤)");
 	}
 	
 	
@@ -36,7 +36,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo(){
-		return customerName + " ´ÔÀÇ µî±ŞÀº " + customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÎÆ®´Â " + bonusPoint + "ÀÔ´Ï´Ù.";  
+		return customerName + " ë‹˜ì˜ ë“±ê¸‰ì€ " + customerGrade + "ì´ë©°, ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ëŠ” " + bonusPoint + "ì…ë‹ˆë‹¤.";  
 	}
 
 	
@@ -65,4 +65,3 @@ public class Customer {
 	}
 
 }
-
