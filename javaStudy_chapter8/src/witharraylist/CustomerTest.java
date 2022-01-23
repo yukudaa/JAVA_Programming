@@ -8,11 +8,11 @@ public class CustomerTest {
 	
 		ArrayList<Customer> customerList = new ArrayList<Customer>();
 		
-		Customer customerLee = new Customer(10010,"ÀÌ¼ø½Å");
-		Customer customerShin = new Customer(10011,"½Å»çÀÓ´ç");
-		GoldCustomer customerHong = new GoldCustomer(10012,"È«±æµ¿");
-		GoldCustomer customerYul = new GoldCustomer(10013,"ÀÌÀ²°î");
-		VIPCustomer customerKim = new VIPCustomer(10014,"±èÀ¯½Å",12345);
+		Customer customerLee = new Customer(10010,"ì´ìˆœì‹ ");
+		Customer customerShin = new Customer(10011,"ì‹ ì‚¬ì„ë‹¹");
+		GoldCustomer customerHong = new GoldCustomer(10012,"í™ê¸¸ë™");
+		GoldCustomer customerYul = new GoldCustomer(10013,"ì´ìœ¨ê³¡");
+		VIPCustomer customerKim = new VIPCustomer(10014,"ê¹€ìœ ì‹ ",12345);
 		
 		customerList.add(customerLee);
 		customerList.add(customerShin);
@@ -20,21 +20,22 @@ public class CustomerTest {
 		customerList.add(customerYul);
 		customerList.add(customerKim);
 		
-		System.out.println("========= °í°´Á¤º¸ Ãâ·Â =========");
+		System.out.println("========= ê³ ê°ì •ë³´ ì¶œë ¥ =========");
 		for(Customer customer : customerList) {
 			System.out.println(customer.showCustomerInfo());
 		}
 		
-		System.out.println("======= ÇÒÀÎÀ²°ú º¸³Ê½º Æ÷ÀÎÆ® °á°ú =====");
+		System.out.println("======= í• ì¸ìœ¨ê³¼ ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ ê²°ê³¼ =====");
 		
 		int price = 10000;
 		for(Customer customer : customerList) {
 			
 			int cost = customer.calcPrice(price);
 			
-			System.out.println(customer.getCustomerName() + "´ÔÀÌ "+ cost + "¸¦ ÁöºÒÇÏ¼Ì½À´Ï´Ù.");
+			System.out.println(customer.getCustomerName() + "ë‹˜ì´ "+ cost + "ë¥¼ ì§€ë¶ˆí•˜ì…¨ìŠµë‹ˆë‹¤.");
 			System.out.println(customer.showCustomerInfo());
 		}
 	}
 
 }
+
