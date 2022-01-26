@@ -16,7 +16,8 @@ public class Bus {
 	}
 	
 	public void showInfo() {
-		System.out.println("¹ö½º "+ busNumber + "¹øÀÇ ½Â°´Àº " + passengerCount + "¸íÀÌ°í,¼öÀÔÀº"
-		+ money + "ÀÔ´Ï´Ù.");
+		System.out.println("ë²„ìŠ¤ "+ busNumber + "ë²ˆì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª…ì´ê³ ,ìˆ˜ì…ì€"
+		+ money + "ì…ë‹ˆë‹¤.");
 	}
 }
+
