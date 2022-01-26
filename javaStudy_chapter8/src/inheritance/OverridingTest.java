@@ -5,19 +5,18 @@ public class OverridingTest {
 	public static void main(String[] args) {
 	/*	Customer customerLee = new Customer(100010,"LEE");
 		int price = customerLee.calcPrice(10000);
-		System.out.println("ÁöºÒ ±İ¾×Àº " + price + "ÀÌ°í, "+ customerLee.showCustomerInfo());
+		System.out.println("ì§€ë¶ˆ ê¸ˆì•¡ì€ " + price + "ì´ê³ , "+ customerLee.showCustomerInfo());
 
 		VIPCustomer customerKim = new VIPCustomer(100010,"KIM",100);
 		price = customerKim.calcPrice(10000);
-		System.out.println("ÁöºÒ ±İ¾×Àº " + price + "ÀÌ°í, "+ customerKim.showCustomerInfo());
+		System.out.println("ì§€ë¶ˆ ê¸ˆì•¡ì€ " + price + "ì´ê³ , "+ customerKim.showCustomerInfo());
 	*/
 		Customer customerWho = new VIPCustomer(100010,"Who" ,100);
 		int price = customerWho.calcPrice(10000);
-		System.out.println("ÁöºÒ ±İ¾×Àº " + price + "ÀÌ°í, "+ customerWho.showCustomerInfo());
+		System.out.println("ì§€ë¶ˆ ê¸ˆì•¡ì€ " + price + "ì´ê³ , "+ customerWho.showCustomerInfo());
 	
 		
-		
-		
+				
 	}
 
 }
