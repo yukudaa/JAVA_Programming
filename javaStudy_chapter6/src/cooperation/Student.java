@@ -10,7 +10,7 @@ public class Student {
 		this.studentName = studentName;
 		this.money = money;
 	}
-	//Áß¿ä
+	//ì¤‘ìš”
 	public void takeBus(Bus bus) {
 		bus.take(1000);
 		money -= 1000;
@@ -21,8 +21,7 @@ public class Student {
 	}
 	
 	public void showInfo() {
-		System.out.println(studentName + "´ÔÀÇ ³²Àº µ·Àº " + money + "ÀÔ´Ï´Ù.");
+		System.out.println(studentName + "ë‹˜ì˜ ë‚¨ì€ ëˆì€ " + money + "ì…ë‹ˆë‹¤.");
 	}
-	
-	
+		
 }
