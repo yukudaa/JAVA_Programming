@@ -2,8 +2,8 @@ package gamelevel;
 
 public class Player {
 
-	// level_1, level_2, level_3¸¦ »ç¿ëÇØµµ ÀÌ»óÇÔ
-	private PlayerLevel level; // ÀÌ·¸°Ô »ç¿ëÇØ¾ß ±ò²û
+	// level_1, level_2, level_3ë¥¼ ì‚¬ìš©í•´ë„ ì´ìƒí•¨
+	private PlayerLevel level; // ì´ë ‡ê²Œ ì‚¬ìš©í•´ì•¼ ê¹”ë”
 
 	public Player() {
 		level = new BeginnerLevel();
