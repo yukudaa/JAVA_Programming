@@ -2,8 +2,8 @@ package gamelevel;
 
 public abstract class PlayerLevel {
 
-	// if¸¦ »ç¿ëÇÏ¸é run(), jump(), turn(), ... ¸¶´Ù ¹İº¹¹®À» ¸¸µé¾î¾ßÇÔ
-	// ±×·¡¼­ »ó¼ÓÀ» »ç¿ëÇØ¾ßÇÔ
+	// ifë¥¼ ì‚¬ìš©í•˜ë©´ run(), jump(), turn(), ... ë§ˆë‹¤ ë°˜ë³µë¬¸ì„ ë§Œë“¤ì–´ì•¼í•¨
+	// ê·¸ë˜ì„œ ìƒì†ì„ ì‚¬ìš©í•´ì•¼í•¨
 	public abstract void run();
 
 	public abstract void jump();
