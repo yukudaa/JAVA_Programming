@@ -4,27 +4,27 @@ public class AICar extends Car{
 
 	@Override
 	public void dirve() {
-		System.out.println("ÀÚÀ² ÁÖÇàÇÕ´Ï´Ù.");
-		System.out.println("ÀÚµ¿Â÷°¡ ½º½º·Î ¹æÇâÀ» ÀüÈ¯ÇÕ´Ï´Ù.");
+		System.out.println("ììœ¨ ì£¼í–‰í•©ë‹ˆë‹¤.");
+		System.out.println("ìë™ì°¨ê°€ ìŠ¤ìŠ¤ë¡œ ë°©í–¥ì„ ì „í™˜í•©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("ÀÚµ¿Â÷°¡ ½º½º·Î ¸ØÃä´Ï´Ù.");
+		System.out.println("ìë™ì°¨ê°€ ìŠ¤ìŠ¤ë¡œ ë©ˆì¶¥ë‹ˆë‹¤.");
 		
 	}
 	
 	@Override
 	public void wiper() {
-		System.out.println("ºñ³ª ´«ÀÇ ¾ç¿¡ µû¶ó ÀÚµ¿À¸·Î Á¶ÀıµË´Ï´Ù.");
+		System.out.println("ë¹„ë‚˜ ëˆˆì˜ ì–‘ì— ë”°ë¼ ìë™ìœ¼ë¡œ ì¡°ì ˆë©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void washCar() {
-		System.out.println("ÀÚµ¿À¸·Î ¼¼Â÷°¡ µË´Ï´Ù.");
+		System.out.println("ìë™ìœ¼ë¡œ ì„¸ì°¨ê°€ ë©ë‹ˆë‹¤.");
 	}
 
-	
+
 }
