@@ -4,24 +4,22 @@ public class ManualCar extends Car{
 
 	@Override
 	public void dirve() {
-		System.out.println("»ç¶÷ÀÌ ¿îÀüÇÕ´Ï´Ù.");
-		System.out.println("»ç¶÷ÀÌ ÇÚµéÀ» Á¶ÀÛÇÕ´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ìš´ì „í•©ë‹ˆë‹¤.");
+		System.out.println("ì‚¬ëŒì´ í•¸ë“¤ì„ ì¡°ì‘í•©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("»ç¶÷ÀÌ ºê·¹ÀÌÅ©·Î Á¤ÁöÇÕ´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ë¸Œë ˆì´í¬ë¡œ ì •ì§€í•©ë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void wiper() {
-		System.out.println("»ç¶÷ÀÌ ¼öµ¿À¸·Î ¿ÍÀÌÆÛ¸¦ Á¶ÀÛÇÕ´Ï´Ù.");
+		System.out.println("ì‚¬ëŒì´ ìˆ˜ë™ìœ¼ë¡œ ì™€ì´í¼ë¥¼ ì¡°ì‘í•©ë‹ˆë‹¤.");
 		
 	}
 
-
-	
 	
 }
