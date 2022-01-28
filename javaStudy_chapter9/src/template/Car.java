@@ -8,20 +8,20 @@ public abstract class Car {
 	
 	public abstract void wiper();
 	
-	//±¸ÇöÄÚµå ÇÊ¿ä ¾øÀ½ , Á¤ÀÇ¸¸ µÈ°ÅÀÓ , ÀçÁ¤ÀÇ ÇÊ¿ä¾øÀ½
+	//êµ¬í˜„ì½”ë“œ í•„ìš” ì—†ìŒ , ì •ì˜ë§Œ ëœê±°ì„ , ì¬ì •ì˜ í•„ìš”ì—†ìŒ
 	public void washCar() {}
 	
 	
 	public void startCar() {
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
-	//finalÀ» »ç¿ëÇÏ¸é ÇÏÀ§ Å¬·¡½º¿¡¼± ÀçÁ¤ÀÇ ºÒ°¡
-	//template¸Ş¼­µå
+	//finalì„ ì‚¬ìš©í•˜ë©´ í•˜ìœ„ í´ë˜ìŠ¤ì—ì„  ì¬ì •ì˜ ë¶ˆê°€
+	//templateë©”ì„œë“œ
 	public final void run() {
 		startCar();
 		dirve();
