@@ -33,8 +33,8 @@ public class EqualsTest {
 		String str1 = new String("test");
 		String str2 = new String("test");
 		/*
-		System.out.println(str1 == str2); // �ּҰ� ��
-		System.out.println(str1.equals(str2)); // ���ڿ� ��
+		System.out.println(str1 == str2); // ÁÖ¼Ò°ª ºñ±³
+		System.out.println(str1.equals(str2)); // ¹®ÀÚ¿­ ºñ±³
 	*/
 		Student std1 = new Student(10001, "Tomas");
 		Student std2 = new Student(10001, "Tomas");
