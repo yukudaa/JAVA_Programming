@@ -25,7 +25,7 @@ class Circle implements Cloneable {
 	}
 
 	public String toString() {
-		return "¿øÁ¡Àº " + this.point + "ÀÌ°í, ¹İÁö¸§Àº " + radius + "ÀÔ´Ï´Ù";
+		return "ì›ì ì€ " + this.point + "ì´ê³ , ë°˜ì§€ë¦„ì€ " + radius + "ì…ë‹ˆë‹¤";
 	}
 
 	@Override
