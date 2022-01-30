@@ -11,8 +11,9 @@ public class StringTest {
 		
 		str1 = str1.concat(str2);
 		
-		System.out.println(str1);	//str1¿¡ str2°¡ ºÙ´Â°Ô ¾Æ´Ï¶ó »õ·Î ¸¸µé¾îÁü
-		System.out.println(System.identityHashCode(str1));	//±×·¡¼­ ´Ù¸§
+		System.out.println(str1);	//str1ì— str2ê°€ ë¶™ëŠ”ê²Œ ì•„ë‹ˆë¼ ìƒˆë¡œ ë§Œë“¤ì–´ì§
+		System.out.println(System.identityHashCode(str1));	//ê·¸ë˜ì„œ ë‹¤ë¦„
 	}
 
 }
+
