@@ -21,11 +21,11 @@ public class ToStringEx {
 
 	public static void main(String[] args) {
 
-		Book book = new Book("µÎÀÕÀÚ¹Ù", "ÀºÁ¾´Ô"); // À§¿¡ toString()ÀÌ ¾øÀ¸¸é object.Book@7d6f77cc ÀÌ·¸°Ô ³ª¿È
+		Book book = new Book("ë‘ì‡ìë°”", "ì€ì¢…ë‹˜"); // ìœ„ì— toString()ì´ ì—†ìœ¼ë©´ object.Book@7d6f77cc ì´ë ‡ê²Œ ë‚˜ì˜´
 		System.out.println(book);
 
 		String str = new String("test");
-		System.out.println(str); // StringÅ¬·¡½º¿¡ ÀÌ¹Ì toStringÀÌ Á¤ÀÇµÇ¾î ÀÖ¾î¼­
-	} // ÀÚ±â ¹®ÀÚ¿­À» Ãâ·ÂÇÏµµ·Ï
+		System.out.println(str); // Stringí´ë˜ìŠ¤ì— ì´ë¯¸ toStringì´ ì •ì˜ë˜ì–´ ìˆì–´ì„œ
+	} // ìê¸° ë¬¸ìì—´ì„ ì¶œë ¥í•˜ë„ë¡
 
 }
